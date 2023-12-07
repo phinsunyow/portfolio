@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <style>
+        /* Set the font family for various elements to Hanken Grotesk */
+        body, h1, h2, h3, h4, h5, h6, p, a, span, div, input, textarea, button {
+            font-family: 'Hanken Grotesk', sans-serif;
+        }
+
+        /* Additional styles for code elements */
+        code {
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body class="bg-green-100 text-green-800">
+    <!-- Navigation -->
+    <nav class="bg-green-700 text-white p-4">
+        <div class="container mx-auto">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold">Welcome</div>
+                <div class="flex space-x-4">
+                    <a href="#about" class="hover:text-white">About</a>
+                    <a href="#skills" class="hover:text-white">Skills</a>
+                    <a href="#projects" class="hover:text-white">Projects</a>
+                    <a href="#contact" class="hover:text-white">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<!-- Hero Section -->
+<header class="bg-green-500 text-white text-center py-20 relative">
+    <div class="container mx-auto">
+        <img src="C:\Users\PCP\Pictures\ACC.png" alt="Logo" class="absolute left-0 top-0 w-60 h-45 ml-2 mt-2">
+        <h1 class="text-4xl font-bold mb-4">Hello, I'm Phil Patrick F. Suño</h1>
+        <p class="text-lg">A passionate BSIS student with a lot of experience in Computer Systems.</p>
+        <div class="flex justify-center items-center mt-8">
+            <img src="C:\Users\PCP\Pictures\ME.jpg" alt="Your Name" class="rounded-full h-64 w-64 object-cover object-center">
+        </div>
+    </div>
+</header>
+
+
+
+<!-- About Section -->
+<section id="about" class="py-16">
+    <div class="container mx-auto flex items-center text-center"> <!-- Added text-center class -->
+        <div class="w-1/2 mx-auto"> <!-- Center the content with mx-auto -->
+            <h2 class="text-3xl font-bold mb-4">About Me</h2>
+            <p class="text-lg lg:text-xl"> <!-- Increased the font size for large screens -->
+                Greetings! I'm Phil Patrick F. Suño, currently pursuing a degree in BS Information Systems at Advance Central College. Driven by an unyielding passion for technology, I am dedicated to expanding my knowledge in Python programming and computer development. My academic journey is complemented by hands-on experiences and a relentless pursuit of innovation. With an interest in problem-solving and a commitment to excellence, I am poised to contribute meaningfully to the dynamic world of IT. I look forward to embracing challenges and continuously honing my skills in the ever-evolving realm of information systems.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Skills Section -->
+<section id="skills" class="bg-green-100 py-16">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8 text-center">Skills</h2>
+        <ul class="grid grid-cols-2 gap-4">
+            <!-- Python -->
+            <li>
+                <div class="flex items-center mb-2">
+                    <span class="w-1/4">Python</span>
+                    <div class="w-3/4 bg-gray-300 h-4 rounded-full">
+                        <div class="bg-green-500 h-full rounded-full" style="width: 22%;"></div>
+                    </div>
+                </div>
+            </li>
+
+            <!-- HTML/CSS -->
+            <li>
+                <div class="flex items-center mb-2">
+                    <span class="w-1/4">HTML/CSS</span>
+                    <div class="w-3/4 bg-gray-300 h-4 rounded-full">
+                        <div class="bg-green-500 h-full rounded-full" style="width: 16%;"></div>
+                    </div>
+                </div>
+            </li>
+
+            <!-- JavaScript -->
+            <li>
+                <div class="flex items-center mb-2">
+                    <span class="w-1/4">JavaScript</span>
+                    <div class="w-3/4 bg-gray-300 h-4 rounded-full">
+                        <div class="bg-green-500 h-full rounded-full" style="width: 18%;"></div>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Photoshop -->
+            <li>
+                <div class="flex items-center mb-2">
+                    <span class="w-1/4">Photoshop</span>
+                    <div class="w-3/4 bg-gray-300 h-4 rounded-full">
+                        <div class="bg-green-500 h-full rounded-full" style="width: 65%;"></div>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Microsoft Word -->
+            <li>
+                <div class="flex items-center mb-2">
+                    <span class="w-1/4">Microsoft Word</span>
+                    <div class="w-3/4 bg-gray-300 h-4 rounded-full">
+                        <div class="bg-green-500 h-full rounded-full" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Microsoft Paint -->
+            <li>
+                <div class="flex items-center mb-2">
+                    <span class="w-1/4">Microsoft Paint</span>
+                    <div class="w-3/4 bg-gray-300 h-4 rounded-full">
+                        <div class="bg-green-500 h-full rounded-full" style="width: 78%;"></div>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Computer Hardware -->
+            <li>
+                <div class="flex items-center mb-2">
+                    <span class="w-1/4">Computer Hardware</span>
+                    <div class="w-3/4 bg-gray-300 h-4 rounded-full">
+                        <div class="bg-green-500 h-full rounded-full" style="width: 55%;"></div>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Computer Management -->
+            <li>
+                <div class="flex items-center mb-2">
+                    <span class="w-1/4">Computer Management</span>
+                    <div class="w-3/4 bg-gray-300 h-4 rounded-full">
+                        <div class="bg-green-500 h-full rounded-full" style="width: 60%;"></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-16 bg-green-100">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+            <!-- Project Card -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">MS Office Installation</h3>
+                <p class="text-gray-600">Status: Passed</p>
+            </div>
+
+            <!-- Existing project cards -->
+
+            <!-- New Project Cards -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">CCTV Installation</h3>
+                <p class="text-gray-600">Status: In Progress</p>
+            </div>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">Typing Master</h3>
+                <p class="text-gray-600">Status: Passed</p>
+            </div>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">Solar Installation</h3>
+                <p class="text-gray-600">Status: In Progress</p>
+            </div>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">Application Letter</h3>
+                <p class="text-gray-600">Status: Passed</p>
+            </div>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">Data Entry</h3>
+                <p class="text-gray-600">Status: Passed</p>
+            </div>
+
+            <!-- Additional Project Cards -->
+            <!-- Add these lines for each new project -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">Powerpoint</h3>
+                <p class="text-gray-600">Status: Passed</p>
+            </div>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">Email</h3>
+                <p class="text-gray-600">Status: Passed</p>
+            </div>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">Certificate</h3>
+                <p class="text-gray-600">Status: Passed</p>
+            </div>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">Wired Telephone Installation</h3>
+                <p class="text-gray-600">Status: Passed</p>
+            </div>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">Wireless Telephone Set-up Installation w/Job Interview</h3>
+                <p class="text-gray-600">Status: Passed</p>
+            </div>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">Brochure</h3>
+                <p class="text-gray-600">Status: Passed</p>
+            </div>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">Inbound / Outbound Calls</h3>
+                <p class="text-gray-600">Status: In Progress</p>
+            </div>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">Printer And Driver Installation</h3>
+                <p class="text-gray-600">Status: Passed</p>
+            </div>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">Python Programming</h3>
+                <p class="text-gray-600">Status: In Progress</p>
+            </div>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">Printing and Scanning</h3>
+                <p class="text-gray-600">Status: Passed</p>
+            </div>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">XBOX 360</h3>
+                <p class="text-gray-600">Status: In Progress</p>
+            </div>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">Hardware Identification</h3>
+                <p class="text-gray-600">Status: Passed</p>
+            </div>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">Compilation of Different Types of Dance</h3>
+                <p class="text-gray-600">Status: In Progress</p>
+            </div>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-md p-2">
+                <h3 class="text-xl font-semibold mb-2">Assembly Disassembly</h3>
+                <p class="text-gray-600">Status: Passed</p>
+            </div>
+
+            <!-- Add similar cards for the remaining projects -->
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Contact Section -->
+<section id="contact" class="bg-green-100 py-16">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-8">Contact</h2>
+
+        <!-- Contact Form -->
+        <form action="your_server_script.php" method="post" class="max-w-md mx-auto lg:mx-0">
+            <div class="mb-4">
+                <label for="name" class="block text-gray-600">Name:</label>
+                <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-md">
+            </div>
+
+            <div class="mb-4">
+                <label for="email" class="block text-gray-600">Email:</label>
+                <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-md">
+            </div>
+
+            <div class="mb-4">
+                <label for="phone" class="block text-gray-600">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border rounded-md">
+            </div>
+
+            <div class="mb-4">
+                <label for="message" class="block text-gray-600">Message:</label>
+                <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border rounded-md"></textarea>
+            </div>
+
+            <button type="submit" class="bg-green-500 text-white px-6 py-3 rounded-md">Send Message</button>
+        </form>
+
+        <!-- Contact Details -->
+        <div class="mt-8 text-left">
+            <p class="text-lg">Feel free to reach out to me via email at <a href="mailto:your.email@example.com" class="text-green-500">philsunyow@gmail.com</a>. You can also contact me by phone at <a href="tel:+1234567890" class="text-green-500">+1 (356) 567-525</a>.</p>
+            <!-- Add more contact details as needed -->
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer Section -->
+    <footer class="bg-green-700 text-white text-center py-4">
+        <div class="container mx-auto">
+            &copy; 2023 Phil Suño Portfolio. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="path/to/your/script.js"></script>
+</body>
+</html>
